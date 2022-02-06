@@ -1,0 +1,14 @@
+module Export
+import getRelayTimestamp from "hello-world"
+export getRelayTimestamp
+import getGossipDelay1 from "gossip1"
+import getGossipDelay2 from "gossip2"
+import getGossipDelay3 from "gossip3"
+import getGossipDelay4 from "gossip4"
+import getGossipDelay5 from "gossip5"
+
+export getGossipDelay1
+export getGossipDelay2
+export getGossipDelay3
+export getGossipDelay4
+export getGossipDelay5

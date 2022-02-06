@@ -1,0 +1,9 @@
+module Gossip3 declares getGossipDelay3
+
+import "@fluencelabs/aqua-lib/builtin.aqua"
+
+func getGossipDelay3() -> u64:
+    on HOST_PEER_ID:
+        ts <- Peer.timestamp_ms()
+    <- ts
+
