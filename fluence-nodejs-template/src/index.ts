@@ -33,7 +33,7 @@ async function main() {
     // here we call aqua function from typescript
     const timestamp = await getRelayTimestamp();
    
-    let node = null
+    let node = 0
     let id = 0
 
     for(let i=0; i<4; i++){
